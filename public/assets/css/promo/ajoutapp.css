@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: #f5f7fa;
+    color: #111827;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #047857;
+    font-size: 26px;
+    margin-bottom: 40px;
+  }
+  
+  .section-form {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #111827;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 8px;
+  }
+  
+  /* FORM GRID DEUX COLONNES */
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+  }
+  
+  /* ÉTENDRE LE CHAMP FICHIER SUR 1 COLONNE ENTIÈRE */
+  .form-group.file-upload {
+    grid-column: span 1;
+    border: 2px dashed #3b82f6;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9fafb;
+    cursor: pointer;
+  }
+  
+  .file-upload input {
+    display: none;
+  }
+  
+  .file-upload label {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #2563eb;
+    background-color: #e0f2fe;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #374151;
+  }
+  
+  .form-group input {
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #d1d5db;
+    background-color: #f9fafb;
+    transition: border 0.2s ease;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    background-color: #ffffff;
+  }
+  
+  /* BOUTONS */
+  .buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .cancel-btn,
+  .submit-btn {
+    padding: 12px 28px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .cancel-btn {
+    background-color: #f3f4f6;
+    color: #374151;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #e5e7eb;
+  }
+  
+  .submit-btn {
+    background-color: #047857;
+    color: white;
+  }
+  
+  .submit-btn:hover {
+    background-color: #065f46;
+  }
+  
+  /* RESPONSIVE MOBILE */
+  @media screen and (max-width: 900px) {
+    .form-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

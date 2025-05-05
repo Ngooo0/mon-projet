@@ -1,0 +1,243 @@
+{
+    "utilisateurs": [
+        {
+            "id": 1,
+            "nom": "admin",
+            "login": "ngone@sonatel.sn",
+            "password": "PASSER123",
+            "profil": "Admin"
+        },
+        {
+            "id": 2,
+            "nom": "vigile",
+            "login": "vigile@sonatel.sn",
+            "password": "vigile123",
+            "profil": "Vigile"
+        },
+        {
+            "id": 3,
+            "nom": "apprenant",
+            "login": "apprenant@sonatel.sn",
+            "password": "apprenant123",
+            "profil": "Apprenant"
+        }
+    ],
+    "promotions": [
+        {
+            "id": 4,
+            "nom": "PROMO DEV 2023",
+            "dateDebut": "2023-01-15",
+            "dateFin": "2023-07-15",
+            "referenciels": [
+                1
+            ],
+            "photo": "assets\/images\/promo\/promo_dev_2023.jpeg",
+            "statut": "Active",
+            "nbrApprenant": 0
+        },
+        {
+            "id": 5,
+            "nom": "PROMO DEV 2024",
+            "dateDebut": "2024-01-15",
+            "dateFin": "2024-07-15",
+            "referenciels": [
+                1,
+                2
+            ],
+            "photo": "assets\/images\/promo\/promo_dev_2024.jpeg",
+            "statut": "Inactive",
+            "nbrApprenant": 0
+        },
+        {
+            "id": 8,
+            "nom": "PROMO DEV 2025",
+            "dateDebut": "2024-01-15",
+            "dateFin": "2024-07-15",
+            "referenciels": [
+                1,
+                2
+            ],
+            "photo": "assets\/images\/promo\/promo_dev_2024.jpeg",
+            "statut": "Inactive",
+            "nbrApprenant": 0
+        },
+        {
+            "id": 10,
+            "nom": "PROMO DEV 2026",
+            "dateDebut": "2024-01-15",
+            "dateFin": "2024-07-15",
+            "referenciels": [
+                1,
+                2
+            ],
+            "photo": "assets\/images\/promo\/promo_dev_2024.jpeg",
+            "statut": "Inactive",
+            "nbrApprenant": 0
+        },
+        {
+            "id": 11,
+            "nom": "PROMO DEV 2027",
+            "dateDebut": "2024-01-15",
+            "dateFin": "2024-07-15",
+            "referenciels": [
+                1,
+                2
+            ],
+            "photo": "assets\/images\/promo\/promo_dev_2024.jpeg",
+            "statut": "Inactive",
+            "nbrApprenant": 0
+        },
+        {
+            "id": 2,
+            "nom": "PROMO DEV 2028",
+            "dateDebut": "2024-01-15",
+            "dateFin": "2024-07-15",
+            "referenciels": [
+                1,
+                2
+            ],
+            "photo": "assets\/images\/promo\/promo_dev_2024.jpeg",
+            "statut": "Inactive",
+            "nbrApprenant": 0
+        },
+        {
+            "id": 2,
+            "nom": "PROMO DEV 2029",
+            "dateDebut": "2024-01-15",
+            "dateFin": "2024-07-15",
+            "referenciels": [
+                1,
+                2
+            ],
+            "photo": "assets\/images\/promo\/promo_dev_2024.jpeg",
+            "statut": "Inactive",
+            "nbrApprenant": 0
+        },
+        {
+            "id": 2,
+            "nom": "PROMO DEV 2030",
+            "dateDebut": "2024-01-15",
+            "dateFin": "2024-07-15",
+            "referenciels": [
+                1,
+                2
+            ],
+            "photo": "assets\/images\/promo\/promo_dev_2024.jpeg",
+            "statut": "Inactive",
+            "nbrApprenant": 0
+        },
+        {
+            "id": 3,
+            "nom": "prom",
+            "dateDebut": "11\/15\/2025",
+            "dateFin": "11\/15\/2026",
+            "referenciel_id": 1,
+            "photo": "assets\/images\/promo\/Capture d\u2019\u00e9cran du 2025-04-15 16-06-46.png",
+            "statut": "Inactive",
+            "nbrApprenant": 0
+        },
+        {
+            "id": 12,
+            "nom": "Promo design",
+            "dateDebut": "2010\/09\/09",
+            "dateFin": "2016\/02\/11",
+            "referenciel_id": 1,
+            "photo": "assets\/images\/promo\/default.jpg",
+            "statut": "Inactive",
+            "nbrApprenant": 0
+        },
+        {
+            "id": 13,
+            "nom": "Promo dev 6",
+            "dateDebut": "2022\/11\/11",
+            "dateFin": "2024\/11\/11",
+            "referenciels": [
+                8
+            ],
+            "photo": "assets\/images\/promo\/default.jpg",
+            "statut": "Inactive",
+            "nbrApprenant": 0
+        },
+        {
+            "id": 14,
+            "nom": "jhhh",
+            "dateDebut": "jikk",
+            "dateFin": "jkkk",
+            "referenciels": [],
+            "photo": "assets\/images\/promo\/default.jpg",
+            "statut": "Inactive",
+            "nbrApprenant": 0
+        },
+        {
+            "id": 15,
+            "nom": "PROMO 54",
+            "dateDebut": "2010\/09\/09",
+            "dateFin": "2016\/02\/11",
+            "referenciels": [],
+            "photo": "assets\/images\/promo\/default.jpg",
+            "statut": "Inactive",
+            "nbrApprenant": 0
+        },
+        {
+            "id": 16,
+            "nom": "Promo dev 99",
+            "dateDebut": "2023-02-16",
+            "dateFin": "2024-09-05",
+            "referenciels": [
+                1745502234
+            ],
+            "photo": "assets\/images\/promo\/WhatsApp Image 2025-04-22 at 02.05.53.jpeg",
+            "statut": "Inactive",
+            "nbrApprenant": 0
+        }
+    ],
+    "referenciel": [
+        {
+            "id": 1745502234,
+            "nom": "D\u00e9veloppement wb",
+            "capacite": 23,
+            "photo": null,
+            "modules": 0,
+            "apprenants": 0
+        }
+    ],
+    "apprenants": [
+        {
+            "id": 1,
+            "matricule": "105825",
+            "nom": "Seydina Mouhammed Diop",
+            "adresse": "Sicap Libert\u00e9 6, Dakar, S\u00e9n\u00e9gal",
+            "telephone": "765555888",
+            "referentiel": "DEV WEB\/MOBILE",
+            "statut": "actif",
+            "photo": "user.png"
+        },
+        {
+            "id": 2,
+            "matricule": "105826",
+            "nom": "Awa Niang",
+            "adresse": "Hann Maristes, Dakar, S\u00e9n\u00e9gal",
+            "telephone": "778888999",
+            "referentiel": "DATA ANALYST",
+            "statut": "inactif",
+            "photo": "user.png"
+        },
+        {
+            "matricule": "12345",
+            "prenom": "Aliou",
+            "nom": "Gueye",
+            "date_naissance": "2000-01-01",
+            "lieu_naissance": "Dakar",
+            "adresse": "Ouakam",
+            "email": "aliou.gueye@example.com",
+            "telephone": "781716376",
+            "photo": "\/uploads\/photo1.jpg",
+            "referentiel": "DEV WEB",
+            "statut": "actif",
+            "nom_tuteur": "Mamadou Gueye",
+            "lien_parente": "P\u00e8re",
+            "adresse_tuteur": "Ouakam",
+            "telephone_tuteur": "771234567"
+        }
+    ]
+}

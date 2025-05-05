@@ -1,0 +1,70 @@
+.ref-header {
+    padding: 2rem 0;
+}
+
+.back-link {
+    color: var(--gray);
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.back-link:hover {
+    color: var(--primary-color);
+}
+
+.search-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.create-ref-btn {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+.create-ref-btn:hover {
+    opacity: 0.9;
+}
+
+.ref-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.ref-card {
+    background: white;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.ref-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ref-content {
+    padding: 1.5rem;
+}
+
+.ref-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.ref-info {
+    margin-top: 1rem;
+    color: var(--gray);
+    font-size: 0.9rem;
+}
